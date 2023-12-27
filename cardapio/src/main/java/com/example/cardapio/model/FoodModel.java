@@ -14,6 +14,6 @@ public class FoodModel {
     private UUID id;
     private String tittle;
     private String image;
-    private Integer price;
+    private Double price;
 
 }

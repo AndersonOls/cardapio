@@ -9,7 +9,7 @@ const queryClinet = new QueryClient();
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <QueryClientProvider client={queryClinet}>
-    <App />
+      <App />
     </QueryClientProvider>
   </React.StrictMode>,
 )
